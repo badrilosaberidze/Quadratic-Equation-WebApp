@@ -1,0 +1,117 @@
+body,
+html,
+.qe-container {
+  width: 100%;
+  height: 100%;
+  /* background-image: url("./cover.jpg"); */
+}
+
+.qe-container {
+  background-image: url("./cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.qe-wrapper {
+  background-color: rgba(90, 65, 158, 0.7);
+  width: 50%;
+  height: 80%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 300px;
+  min-width: 350px;
+}
+
+.qe-input-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.qe-input-item input {
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: rgba(90, 65, 158);
+  border: unset;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 0 0.5rem;
+}
+
+.qe-input {
+  display: flex;
+}
+
+.qe-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.qe-button {
+  display: flex;
+  justify-content: center;
+}
+
+.qe-button button {
+  border: unset;
+  padding: 0.5rem 1rem;
+  border-radius: 7.5px;
+  border-bottom: 5px solid rgb(175, 152, 236);
+  color: rgb(117, 96, 173);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.qe-button button:active {
+  background-color: rgb(207, 197, 235);
+}
+
+.qe-result {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+
+.root {
+  display: flex;
+  background: white;
+  color: rgb(90, 65, 158);
+  padding: 0.25rem 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 7.5px;
+}
+
+.root-val {
+  padding-left: 0.5rem;
+}
+.popup{
+  position: fixed;
+  background-color: rgb(177, 175, 175);
+  padding: 50px;
+  display: none;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40%;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.popup-text{
+    font-size:25px;
+    color: red;
+    
+}

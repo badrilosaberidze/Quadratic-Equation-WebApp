@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quadratic Equation</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="popup" id="pop-up" onclick="closePopUp()">
+      <span class="popup-text">Quadratic Equation Has No Roots</span>
+    </div>
+    <div class="qe-container">
+      <div class="qe-wrapper">
+        <div class="qe-header">Quadratic Equation</div>
+        <div class="qe-content">
+          <div class="qe-input">
+            <div class="qe-input-item qe-input-1">
+              <input placeholder="a" id="a">
+              <p>x² +</p>
+            </div>
+            <div class="qe-input-item qe-input-2">
+              <input placeholder="b" id="b" >
+              <p>x +</p>
+            </div>
+            <div class="qe-input-item qe-input-3">
+              <input placeholder="c" id="c">
+              <p></p>
+            </div>
+            <div class="qe-input-item qe-input-4">
+              <p>= 0</p>
+            </div>
+          </div>
+          <div class="qe-button">
+            <button onclick="calculateRoots()">Calculate Roots</button>
+          </div>
+          <div class="qe-result">
+            <div class="root">
+              <div class="root-desc" id="root-desc1">x₁ =</div>
+              <div class="root-val" id="root-val1">*</div>
+            </div>
+            <div class="root">
+              <div class="root-desc" id="root-desc2">x₂ =</div>
+              <div class="root-val" id="root-val2">*</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
